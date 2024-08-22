@@ -83,6 +83,6 @@ jobs:
     - name: Commit and push changes
       run: |
         git config --global user.email "evolmalek04@gmail.com"
-        git config --global user.name "Haxor44
+        git config --global user.name "Haxor44"
         git commit -m "Update tag in Helm chart"
         git push
